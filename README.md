@@ -32,7 +32,7 @@ TBD
 TBD
 
 ## Scripts
-TBD
+Scripts pull and manipulate data using functions. Some initial data updates were done external to scripts, since the data set was so small and manual updates took seconds to complete (vs extended time in code).
 
 ### attendance_fb.py
 Pulled football attendance data, and relevant game data from wikipedia using web scraping.
