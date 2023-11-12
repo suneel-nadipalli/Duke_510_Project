@@ -7,37 +7,38 @@ Predictions for men's football and women's basketball home game attendance from 
 ## Code Overview
 Code involved sourcing data from a weather API, as well as web scraping for sports dates and scores.
 
-### Process
+## Process
 1) Sourced data from various websites using the following files
 2) Merged data into one file
 3) Initially cleaned the data
 4) Performed EDA on data
 5) Second cleaning of data before modeling
-6) 
+6) Modeling
+7) Model evaluation
 
-### Notebooks
+## Notebooks
+Notebooks were used for exploration before solidifying code into .py scripts.
+
+### attendance_fb.ipynb
 TBD
 
-#### attendance_fb.ipynb
+### attendance_wb.ipynb
 TBD
 
-#### attendance_wb.ipynb
+### calendar_dates.ipynb
 TBD
 
-#### calendar_dates.ipynb
+### weather.ipynb
 TBD
 
-#### weather.ipynb
+## Scripts
 TBD
 
-### Scripts
+### attendance_fb.py
 TBD
 
-#### attendance_fb.py
+### attendance_wb.py
 TBD
 
-#### attendance_wb.py
-TBD
-
-#### get_weather_data.py
+### get_weather_data.py
 TBD
