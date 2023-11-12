@@ -20,10 +20,10 @@ Code involved sourcing data from a weather API, as well as web scraping for spor
 Notebooks were used for exploration before solidifying code into .py scripts.
 
 ### attendance_fb.ipynb
-TBD
+Pulled football attendance data, and relevant game data from wikipedia using web scraping.
 
 ### attendance_wb.ipynb
-TBD
+Pulled women's basketball attendance data, and relevant game data from wikipedia using web scraping.
 
 ### calendar_dates.ipynb
 TBD
@@ -35,10 +35,10 @@ TBD
 TBD
 
 ### attendance_fb.py
-TBD
+Pulled football attendance data, and relevant game data from wikipedia using web scraping.
 
 ### attendance_wb.py
-TBD
+Pulled women's basketball attendance data, and relevant game data from wikipedia using web scraping.
 
 ### get_weather_data.py
 TBD
