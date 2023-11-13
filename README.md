@@ -1,5 +1,5 @@
 # Duke_510_Project
-Attendance Prediction of Duke Sporting Events
+Attendance Prediction of Duke Sporting Events.
 
 ## Project Overview
 Predictions for men's football and women's basketball home game attendance from 2016-2023.
