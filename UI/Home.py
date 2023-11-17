@@ -1,4 +1,6 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
+
 
 def page_home():
     # Set up HTML and CSS for split background
@@ -31,6 +33,20 @@ def page_home():
             .right-half {{
                 background-image:url('https://c8.alamy.com/comp/2MFMEEW/general-view-of-the-opening-kickoff-between-the-duke-blue-devils-and-the-north-carolina-tar-heels-in-an-empty-stadium-during-the-first-quarter-of-an-ncaa-college-football-game-at-wallace-wade-stadium-saturday-nov-7-2020-in-durham-nc-jim-dedmonpool-photo-via-ap-2MFMEEW.jpg')
             }}
+            .team-button-left, .team-button-right{{
+                position:relative;
+                display: inline-block;
+                color: white;
+
+            }}
+            .team-button-left {{
+                left: 30%;
+                top: 30%;
+            }}
+            .team-button-right {{
+                left: 40%;
+                top: 30%;
+            }}
         </style>
         <div class="split-container">
             <div class="left-half"></div>
@@ -43,12 +59,15 @@ def page_home():
 
     duke_image_url = "https://pbs.twimg.com/profile_images/1629164833643048961/Vf2I35Mv_400x400.png"
     duke_image_html = f'''
-        <div style=" position: fixed; top: 10%; left:20%; width: 60%; text-align: center;">
+        <div style=" position: fixed; top: 5%; left:20%; width: 60%; text-align: center;">
+            <h2 style="font-style: italic; color:white; text-shadow: 4px 5px 4px rgba(0, 0, 0, 1) "> Forecasting the Fan Wave </h2>
+            <h1 style = "color:white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1)" > Duke Athletics Attendance Prediction</h1>
             <img src="{duke_image_url}" style="width: 40%; height: auto;">
         </div>
     '''
     st.markdown(duke_image_html, unsafe_allow_html=True)
-
+    
+      
 
     # Add an image from a URL
     crowd_image_url = "https://png.pngtree.com/png-clipart/20220804/ourmid/pngtree-audiences-in-club-musical-png-image_6098435.png"
@@ -62,34 +81,13 @@ def page_home():
 
     # Render the image using st.markdown with unsafe_allow_html=True
     st.markdown(crowd_image_html, unsafe_allow_html=True)
-    
-def page_mission():
-    st.title("Our Purpose for our model")
-
-def page_WB():
-    st.title("Women's Basketball Attendance Predictions")
-
-def page_MF():
-    st.title("Men's Football Attendance Predictions")
-
-def style_pages():
-    pass
 
 def main():
 
-    
-    # Sidebar navigation buttons
-    nav_selection = st.sidebar.radio("Select Page", ["Home", "Our Mission", "Women's Basketball", "Men's Football"])
+    st.set_page_config( page_title="Home")
 
-    # Main content based on user's selection
-    if nav_selection == "Home":
-        page_home()
-    if nav_selection == "Our Mission":
-        page_mission()
-    elif nav_selection == "Women's Basketball":
-        page_WB()
-    elif nav_selection == "Men's Football":
-        page_MF()
+    page_home()
+
 
 if __name__ == "__main__":
     main()
