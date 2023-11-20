@@ -35,4 +35,4 @@ wb_pred_df = model_pipeline(wm_train_df, wm_test_df)
 
 # save data
 mf_pred_df.to_csv('data/mf_pred_df.csv', index=False)
-wb_pred_df.to_csv('data/wm_pred_df.csv', index=False)
+wb_pred_df.to_csv('data/wb_pred_df.csv', index=False)
