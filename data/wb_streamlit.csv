@@ -1,0 +1,7 @@
+Season,Sport,Date,Time,Opponent,Duke W,Duke L,Duke Ranking,Opponent Ranking,Category,tempmax,tempmin,temp,windspeed,weather,Event Type,Day of Week Str,Attendance,Predictions
+2022-2023,WB,2/2/2023,1800,Pittsburgh,19,3,16,0,Class,5.7,2.9,4.2,10.2,rain,ACCRivalry,Thursday,1741,2057
+2022-2023,WB,2/12/2023,1400,Miami,22,3,9,0,Class,7.6,2.8,4.6,27.1,rain,ACCRivalry,Sunday,2449,2654
+2022-2023,WB,2/23/2023,2000,NCState,24,4,11,0,Class,27.9,17.7,21.8,32.4,rain,ACCRivalry,Thursday,3139,4772
+2022-2023,WB,2/26/2023,1200,NorthCarolina,25,5,13,22,Class,13.2,8,10.2,22,cloudy,ACCRivalry,Sunday,9314,8019
+2022-2023,WB,3/18/2023,2130,Iona,26,6,13,0,Holiday,15.8,8,11.5,21.1,rain,TournamentGame,Saturday,2246,1231
+2022-2023,WB,3/20/2023,2100,Colorado,26,7,13,21,Holiday,11.8,-1.4,4.9,16.4,partly-cloudy-day,TournamentGame,Monday,1904,1085

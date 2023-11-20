@@ -1,0 +1,5 @@
+Season,Sport,Date,Time,Opponent,Duke W,Duke L,Duke Ranking,Opponent Ranking,Category,tempmax,tempmin,temp,windspeed,weather,Event Type,Day of Week Str,Attendance,Predictions
+2022-2023,MF,10/1/2022,1930,Virginia,3,1,0,0,Holiday,18.1,13.9,16,27.2,rain,ACCRivalry,Saturday,15152,18445
+2022-2023,MF,10/15/2022,2000,NorthCarolina,4,2,0,0,Class,26.3,7.3,16.3,24.1,clear-day,ACCRivalry,Saturday,40004,25452
+2022-2023,MF,11/12/2022,1200,VirginiaTech,6,3,0,0,Class,22.5,17.3,19.7,22.9,rain,ACCRivalry,Saturday,20857,21347
+2022-2023,MF,11/26/2022,1530,WakeForest,7,4,0,0,Holiday,18.9,1.7,9.8,13,partly-cloudy-day,ACCRivalry,Saturday,17492,16963
