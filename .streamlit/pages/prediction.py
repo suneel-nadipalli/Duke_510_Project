@@ -36,17 +36,23 @@ with time_:
     st.time_input('Time')
 
 with opp:
-    imageCarouselComponent = components.declare_component("image-carousel-component", path="frontend/public")
 
-    # enumerate all the file paths from assets/logos_mf
-    imageUrls = [f"logos_mf/{file}" for file in os.listdir("frontend/public/logos_mf")]
+    option = st.selectbox(
+    'How would you like to be contacted?',
+    ('Email', 'Home phone', 'Mobile phone'))
 
-    # print(imageUrls)
 
-    selectedImageUrl = imageCarouselComponent(imageUrls=imageUrls, height=200)
+    # imageCarouselComponent = components.declare_component("image-carousel-component", path="frontend/public")
 
-    if selectedImageUrl is not None:
-        st.image(selectedImageUrl) 
+    # # enumerate all the file paths from assets/logos_mf
+    # imageUrls = [f"logos_mf/{file}" for file in os.listdir("frontend/public/logos_mf")]
+
+    # # print(imageUrls)
+
+    # selectedImageUrl = imageCarouselComponent(imageUrls=imageUrls, height=200)
+
+    # if selectedImageUrl is not None:
+    #     st.image(selectedImageUrl) 
 
 
 predict = st.button('Predict')
