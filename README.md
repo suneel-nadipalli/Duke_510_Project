@@ -64,3 +64,12 @@ Pulling in aggregated dataset and performing further cleaning steps and feature 
 
 ### model_functions.py
 Using final dataset from data_functions.py and training a random forest regression on training data (2016 - 2021) and evaluating model metrics on test dataset (2022 onwards) 
+
+## Images 
+This folder contains plots generated during exploratory data analysis (from make_charts.ipynb in notebooks folder) 
+
+## Data 
+This folder contains aggregated datafile used for feature engineering and modelling (Merged_V13.csv) as well as prediction data from the random forest regression model (mf_pred_df.csv, wb_pred_df.csv) and datafiles used for UI creation (mf_streamlit.csv, wb_streamlit.csv)
+
+## UI & Streamlit 
+This folder contains files used to generate the User Interface (UI) using the streamlit interface 
