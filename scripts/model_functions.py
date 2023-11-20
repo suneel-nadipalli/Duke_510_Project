@@ -1,6 +1,11 @@
 #####
 ###
 # 00 Imports
+# 01 Columns to Model
+# 02 Fit Random Forest Regressor
+# 03 Predict Random Forest Regressor
+# 04 Evaluate Random Forest Regressor
+# 05 Model Pipeline
 ###
 #####
 
@@ -210,6 +215,6 @@ def model_pipeline(train_df, test_df):
     df = predict_random_forest_regressor(model, test_df, cols)
 
     # evaluate
-    evaluate_random_forest_regressor(model, test_df)
+    evaluate_random_forest_regressor(model, df)
 
     return df
