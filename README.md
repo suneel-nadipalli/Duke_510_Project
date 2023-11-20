@@ -34,6 +34,12 @@ Pulled women's basketball attendance data, and relevant game data from wikipedia
 ### calendar_dates.ipynb
 Pulled academic calendar data and classified dates as "holiday", "exam", or "class" for use in model 
 
+### prophet_fb.ipynb
+Additive prophet model for men's football attendance predictions
+
+### prophet_wb.ipynb
+Additive prophet model for women's basketball attendance predictions
+
 ### weather.ipynb
 Used API to obtain weather data for Duke Men's Football and Women's Basketball gamedays between 2016 - 2023 
 
