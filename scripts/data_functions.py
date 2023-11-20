@@ -433,7 +433,7 @@ def data_features(df):
     ###
 
     # replace opponent
-    opponenty_dict = {
+    opponent_dict = {
         'AppalachianState': '1'
         ,'Army': '2'
         ,'AustinPeay': '3'
@@ -491,7 +491,7 @@ def data_features(df):
         ,'Wyoming': '55'
     }
 
-    df['Opponent'] = df['Opponent'].map(opponenty_dict)
+    df['Opponent'] = df['Opponent'].map(opponent_dict)
 
     # convert opponent to int
     df['Opponent'] = df['Opponent'].astype(int)
