@@ -61,10 +61,25 @@ st.markdown(split_background_html, unsafe_allow_html=True)
 
 duke_image_url = "https://pbs.twimg.com/profile_images/1629164833643048961/Vf2I35Mv_400x400.png"
 duke_image_html = f'''
+    <style>
+    .about-div{{
+        position: relative;
+        width: 70%;
+        top: 50%;
+        left: 15%;
+        background-color: white;
+        border-radius: 10px; /* Optional: Add rounded corners */
+        box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
+        font-family:'Courier New'
+    }}
+    </style>
     <div style=" position: fixed; top: 5%; left:20%; width: 60%; text-align: center;">
         <h2 style="font-style: italic; color:white; text-shadow: 4px 5px 4px rgba(0, 0, 0, 1) "> Forecasting the Fan Wave </h2>
         <h1 style = "color:white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1)" > Duke Athletics Attendance Prediction</h1>
         <img src="{duke_image_url}" style="width: 40%; height: auto; opacity: 0.7">
+        <div class = "about-div">
+            <p style = "color:black" > Predict total attendance for Men's Football games and Women's Basketball games to facilitate <strong>better preparation</strong> for crowd size.</p>
+        </div>
     </div>
 '''
 st.markdown(duke_image_html, unsafe_allow_html=True)
@@ -87,5 +102,4 @@ st.markdown(crowd_image_html, unsafe_allow_html=True)
 # add a new line
 st.write("\n\n")
 # insert lopis loreum text
-st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam n")
     
