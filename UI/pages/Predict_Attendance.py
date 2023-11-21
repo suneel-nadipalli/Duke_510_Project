@@ -4,11 +4,9 @@ from utils import display_opp, display_att
 import os
 
 def connect():
-    db_path = "db/attendance.db"
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    return cursor, conn
-
+    conn = st.experimental_connection("attendance", type="sqlite")
+    return conn.cursor(), conn
+    
 def main():
 
     cursor, conn = connect()
