@@ -4,7 +4,7 @@ from utils import display_opp, display_att
 import os
 
 def connect():
-    conn = st.experimental_connection("attendance", type="sqlite")
+    conn = st.experimental_connection("attendance", type="sql")
     return conn.cursor(), conn
     
 def main():
