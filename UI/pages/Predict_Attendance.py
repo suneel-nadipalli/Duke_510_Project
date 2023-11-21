@@ -11,7 +11,7 @@ def main():
 
     cursor, conn = connect()
 
-    st.set_page_config(page_title="Prediction", page_icon=None, layout="wide", initial_sidebar_state="auto")
+    st.set_page_config(page_title="Prediction", page_icon="⚙️", layout="wide", initial_sidebar_state="auto")
 
     st.title('Prediction Page')
 
