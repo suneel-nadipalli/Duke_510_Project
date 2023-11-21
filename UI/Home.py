@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config( page_title="Home", layout="wide")
+st.set_page_config( page_title="Home", layout="wide", initial_sidebar_state="collapsed", page_icon = "🏟️")
 split_background_html = f'''
     <style>
         body {{
