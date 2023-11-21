@@ -1,9 +1,6 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 
-
-    # st.set_page_config( page_title="Home")
-    # Set up HTML and CSS for split background
+st.set_page_config( page_title="Home", layout="wide")
 split_background_html = f'''
     <style>
         body {{
@@ -99,7 +96,4 @@ crowd_image_html = f'''
 
 # Render the image using st.markdown with unsafe_allow_html=True
 st.markdown(crowd_image_html, unsafe_allow_html=True)
-# add a new line
-st.write("\n\n")
-# insert lopis loreum text
     
