@@ -3,7 +3,8 @@ import sqlite3
 from utils import display_opp, display_att
 
 def connect():
-    conn = sqlite3.connect('db/attendance.db')
+    db_path = os.path.join(os.path.dirname(__file__), 'UI', 'db', 'attendance.db')
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     return cursor, conn
 
